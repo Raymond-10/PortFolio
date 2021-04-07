@@ -1,0 +1,184 @@
+body {
+    background-color: #BFB59E !important;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 5.625rem;
+    line-height: 2;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #1C5253;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #1C5253;
+    padding-bottom: 10px;
+    font-weight: 400 !important;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+p {
+    line-height: 2;
+}
+
+
+/* hr {
+    border: dotted;
+    border-width: 5px;
+    border-bottom: none;
+    width: 4%;
+    color: #EAF6F6;
+    margin: 100px auto;
+} */
+
+
+/* Navbar */
+
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    font-weight: 500;
+}
+
+
+/* Top-Container */
+
+.top-container {
+    background-color: #EDE7D9;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.sub-title {
+    font-weight: normal;
+}
+
+
+/* Middle-Container */
+
+.middle-container {
+    border-radius: 15px;
+    padding-top: 20px;
+    margin: 100px;
+    background-color: #EDE7D9;
+}
+
+.profile-photo {
+    width: 150px;
+    border-radius: 100%;
+}
+
+.intro {
+    width: 60%;
+    margin: auto;
+    color: #40514E;
+}
+
+
+/* Bottom-Container */
+
+.bottom-container {
+    background-color: #EDE7D9;
+    padding: 50px 0 20px;
+}
+
+.code-img {
+    width: 25%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skills {
+    display: block !important;
+}
+
+.skills .card {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    border-radius: 7px;
+    align-items: center;
+    box-shadow: 2px 10px 32px 0px rgba(0, 0, 0, 0.26);
+    -webkit-box-shadow: 2px 10px 32px 0px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 2px 10px 32px 0px rgba(0, 0, 0, 0.26);
+    border: none;
+}
+
+.skills .card img {
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 20px);
+}
+
+
+/* Projects */
+
+.tindog-image {
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.crowdfund-image {
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+
+/* contact-me */
+
+.contact-links {
+    color: #000;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* Footer */
+
+.copyright {
+    color: #000;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.footer-link {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #eaf6f6;
+}
