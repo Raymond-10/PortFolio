@@ -83,6 +83,7 @@ a {
 @media(max-width: 986px) {
     .mountain {
         display: none !important;
+        width: 100%;
     }
     .bottom-cloud {
         left: 195px;
