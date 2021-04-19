@@ -82,7 +82,7 @@ a {
 }
 @media(max-width: 986px) {
     .mountain {
-        display: none;
+        display: none !important;
     }
     .bottom-cloud {
         left: 195px;
@@ -99,7 +99,7 @@ a {
     }
     
     .projects .col-md-6 {
-        margin-bottom: 30px;    
+        margin-bottom: 30px;  
     }
 }
 .contact-me ul {
