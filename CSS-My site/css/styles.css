@@ -178,6 +178,10 @@ a {
     .projects .col-md-6 {
         margin-bottom: 30px;    
     }
+    .tindog-image,
+    .crowdfund-image {
+        width: 100%;   
+    }    
 }
 .contact-me ul {
     display: flex;
