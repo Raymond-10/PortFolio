@@ -77,6 +77,11 @@ a {
     bottom: 300px;
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 .sub-title {
     font-weight: normal;
 }
