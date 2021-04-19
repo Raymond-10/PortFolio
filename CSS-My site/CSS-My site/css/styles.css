@@ -102,6 +102,9 @@ a {
     .projects .col-md-6 {
         margin-bottom: 30px;  
     }
+    .img {
+    width: 100%;
+    }
 }
 .contact-me ul {
     display: flex;
