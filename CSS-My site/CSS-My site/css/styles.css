@@ -174,13 +174,13 @@ a {
 
 .tindog-image {
     height: 250px;
-    width: 250px;
+    width: 100%;
     border-radius: 10px;
 }
 
 .crowdfund-image {
     height: 250px;
-    width: 250px;
+    width: 100%;
     border-radius: 10px;
 }
 
